@@ -1,9 +1,8 @@
 /**************************************************************************
-    Souliss - Hello World for Expressif ESP8266
-    
-    This is the basic example, create a software push-button on Android
-    using SoulissApp (get it from Play Store).  
-    
+    Souliss - Power Socket Porting for Expressif ESP8266
+
+	It use static IP Addressing
+
     Load this code on ESP8266 board using the porting of the Arduino core
     for this platform.
         
@@ -11,7 +10,6 @@
 
 // Configure the framework
 #include "bconf/MCU_ESP8266.h"              // Load the code directly on the ESP8266
-//#include "conf/DynamicAddressing.h"
 
 // **** Define the WiFi name and password ****
 #include "C:\Users\Administrator\Documents\Privati\ArduinoWiFiInclude\wifi.h"
@@ -21,7 +19,6 @@
 //#define WIFICONF_INSKETCH
 //#define WiFi_SSID               "wifi_name"
 //#define WiFi_Password           "wifi_password"    
-
 
 // Include framework code and libraries
 #include <ESP8266WiFi.h>
